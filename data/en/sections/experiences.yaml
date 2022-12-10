@@ -11,54 +11,74 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    location: Remote
+    name: LexisNexis Risk Solutions, IDAnalytics
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Senior Site Reliability Engineer
+    start: August 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+      - Rewrote & migrated all Gitlab CI/CD Pipelines for use in Github Actions
+      - Created & managed new Jenkins Pipelines for Github repositories to build and package code
+      - Updated Dockerfile images to upgrade underlying software
+      - Scoped, planned, & executed plan to manually rotate on-prem Kubernetes CA & Certificates to ensure continued cluster functionality before expiration dates
+      - Updated code for deploying on-prem VM-backed Kubernetes clusters using Terraform, Flatcar Linux, Hyperkube, and Cobbler
+      - Scoped & executed Kubernetes version upgrades across non-prod & production clusters with zero downtime for application workloads
+      - Scoped & executed NetApp Trident version upgrades across all clusters for persistent storage backends to Kubernetes clusters
+      - Used existing Ansible playbooks to provision new VM builds for various internal teams
+      - Utilized Gitlab Pipelines to patch production & non-prod vm operating systems
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: Kyriba
+    location: Remote
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Site Reliability Engineer
+    start: May 2021
+    end: August 2021
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Developed Terraform Module monorepo for rapid deployment of AWS resources
+    - Developed Terraform to deploy AWS resources for platform deployment including VPC, Subnets, Security Groups, Peering Connections, Routes, ec2 instances
+    - Used Terraform to create Chef configuration for provisioning & bootstrapping of ec2 instances
+    - Utilized on-prem Terraform Enterprise to coordinate build & development of Terraform resources with team members
+    - Collaborated with team members using Bitbucket/Git to coordinate work in branches and pull requests utilizing infrastructure-as-code best practices
+    - Participated in Sprint based development workflow using Jira tickets to organize work (epics, stories, tasks, etc.)
+    - Deployed microservices-based application using Azure Devops on Azure Service Fabric clusters
+    - Ensured http availability checks for microservices were updated across numerous dev and production environments monitored by Azure Application Insights
+    - Developed Docker container to consume Vault secrets for encryption by an in-house command line application
+    - Developed Helm chart to deploy Docker container as Kubernetes job for ad-hoc encryption of secrets to be stored in Vault
+
+  - designation: System Engineer
+    start: January 2018
+    end: May 2021
+    responsibilities:
+    - Worked on Operations team for a global Software-as-a-Service platform providing financial services to enterprise clients
+    - Administered on-premise Docker Swarm clusters to manage services & container deployments
+    - Wrote a web app in Golang which authenticated to Jira, parsed tickets from REST API and formatted resultant text required for SaaS deployments; app was built and compiled into a Docker container
+    - Wrote a command line utility in Golang to simplify ssh key installations to an ftp server
+    - Developed Terraform to deploy 3 node Docker Swarm cluster in VMWare using Chef to bootstrap nodes
+    - Used Jira ticketing to track ticket queues and work to be done
+    - Partially automated DB statistics report by using Python to concatenate multiple csv files decreasing time to generate the report by 85% (from 4 hours spent to 30 min spent)
+    - Modified configuration files for various services on linux (ftp, apache, etc.)
+    - Administered Vmware ESXi infrastructure using vSphere 6.0 web interface
+    - Ensured timely OS updates on a monthly basis for ~500 CentOS/RHEL servers using Spacewalk
+    - Configure SSH key authentication for SFTP endpoints using centralized Chef configuration
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: CentrexIT
+    location: San Diego, CA
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: System Administrator
+    start: January 2013
+    end: Jan 2018
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Provided outsourced IT service, support, security and leadership for small and medium-sized businesses in the greater San Diego area
+    - Managed entire IT environments for more than 65 companies, ranging from 10 - 250 staff
+    - Administered compute/storage on VMWare ESXi private cloud with ~600 nodes
+    - Managed distributed backup and replication system for 200TB+ of data
+    - Utilized PowerCLI to administer VMs and audit VM configurations 
+    - Led team of 10 for managed service provider with small to medium sized Biotech and medical clients
+    - On-boarded new users accurately and reduced processing time through scripting from eight hours down to 10 minutes
+    - Managed large-scale hardware and software upgrade projects relating to network systems

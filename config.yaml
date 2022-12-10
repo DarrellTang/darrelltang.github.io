@@ -13,6 +13,8 @@ languages:
   bn:
     languageName: English
     weight: 2
+disableLanguages:
+- bn
 
 # Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
 # DefaultContentLanguage: bn
@@ -57,7 +59,7 @@ params:
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 5
+    maxVisibleSections: 6
 
   # Enable dark theme
   darkMode:
@@ -69,10 +71,10 @@ params:
   features:
     # Enable and configure portfolio
     portfolio:
-      enable: true
+      enable: false
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       # Share post on different social media
       shareButtons:
         facebook: false
