@@ -1,7 +1,7 @@
 # section information
 section:
   name: Experience
-  id: experience
+  id: experiences
   enable: true
   weight: 3
   showOnNavbar: true
