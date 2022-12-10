@@ -22,7 +22,7 @@ description: Portfolio and personal blog of Darrell Tang.
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Darrell's Blog
+  title: Darrell Tang | Portfolio & Blog
   type: website
   description: Portfolio and personal blog of Darrell Tang.
   image: images/author/john.png
