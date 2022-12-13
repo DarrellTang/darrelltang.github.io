@@ -8,17 +8,17 @@ menu:
     identifier: sshkey-and-github
     weight: 10
 tags: ["SSH", "Github"]
-#categories: ["Basic"]
+categories: ["Basic"]
 ---
 To generate an SSH key and upload it to GitHub, follow these steps:
 1.  Open a terminal on your computer and run the following command:
-```
+```bash
 ssh-keygen -t ed25519 -b 512
 ```
 2.  When prompted, enter a file in which to save the key. You can press Enter to accept the default file location.
 3.  Next, you will be asked to enter a passphrase for the key. This is an optional security measure that adds an extra layer of protection to your key. If you choose to set a passphrase, you will be required to enter it every time you use the key.
 4.  After the key has been generated, run the following command to print the key to your terminal:
-```
+```bash
 cat ~/.ssh/id_ed25519.pub
 ``` 
 1.  This will print the key to your terminal. You can now copy the key by highlighting it with your mouse and pressing Ctrl+C (or Cmd+C on macOS).

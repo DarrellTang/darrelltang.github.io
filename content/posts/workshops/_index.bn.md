@@ -1,8 +1,8 @@
 ---
-title: Top Category Sample
+title: Workshops
 menu:
   sidebar:
     name: বিভাগ
-    identifier: category
+    identifier: workshops
     weight: 20
 ---
