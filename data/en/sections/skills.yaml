@@ -25,6 +25,10 @@ skills:
   logo: /images/sections/skills/cloud.png
   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
 
+- name: Terraform
+  logo: /images/sections/skills/terraform.png
+  summary: "Extensive experience writing Terraform code, modules, and deploying infrastructure using Terraform Cloud/Enterprise."
+
 - name: Docker
   logo: /images/sections/skills/docker.svg
   summary: "Maintained multiple stages of Dockerfile build processes. Experienced with multi-stage, multi-arch build process. Administrated Harbor container registry and automated build & push pipelines."

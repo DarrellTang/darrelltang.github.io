@@ -73,20 +73,34 @@ badges:
   #  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
 
 - type: soft-skill-indicator
-  name: Mentorship
-  percentage: 85
-  color: blue
+  name: Critical Thinking
+  percentage: 95
+  color: "#5146B9"
 
 - type: soft-skill-indicator
-  name: Team Work
+  name: Mentorship
+  percentage: 85
+  color: "#B94675"
+
+- type: soft-skill-indicator
+  name: Cross-team Collaboration
   percentage: 90
-  color: yellow
+  color: "#AEB946"
 
 - type: soft-skill-indicator
   name: Self Directed
   percentage: 90
-  color: orange
+  color: "#46B98A"
 
+- type: soft-skill-indicator
+  name: Process Automation
+  percentage: 80
+  color: "#5146B9"
+
+- type: soft-skill-indicator
+  name: Software Development
+  percentage: 45
+  color: "#B94675"
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
 #   name: Example 1
